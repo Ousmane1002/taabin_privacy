@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - TaabIn</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .language-toggle {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .language-toggle button {
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 10px 25px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .language-toggle button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        
+        .language-toggle button.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .lang-content {
+            display: none;
+        }
+        
+        .lang-content.active {
+            display: block;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin: 30px 0 15px 0;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        p {
+            margin: 15px 0;
+            text-align: justify;
+        }
+        
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+        }
+        
+        .date {
+            color: #666;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        footer p {
+            margin: 5px 0;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px 15px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔒 Politique de Confidentialité</h1>
+            <p class="subtitle">Privacy Policy</p>
+            <p class="date">Dernière mise à jour: 24 Novembre 2024 | Last updated: November 24, 2024</p>
+            
+            <div class="language-toggle">
+                <button onclick="switchLanguage('fr')" id="btn-fr" class="active">🇫🇷 Français</button>
+                <button onclick="switchLanguage('en')" id="btn-en">🇬🇧 English</button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- Version Française -->
+            <div id="content-fr" class="lang-content active">
+            <h2>📋 Introduction</h2>
+            <p>
+                TaabIn ("nous", "notre", "nos") s'engage à protéger votre vie privée. 
+                Cette politique explique comment nous collectons, utilisons et protégeons vos données personnelles 
+                lorsque vous utilisez notre application mobile TaabIn.
+            </p>
+            
+            <h2>📊 Données Collectées</h2>
+            <p>Lors de l'utilisation de TaabIn, nous collectons les informations suivantes:</p>
+            <ul>
+                <li><strong>Nom et prénom</strong></li>
+                <li><strong>Adresse email</strong></li>
+                <li><strong>Numéro de téléphone</strong></li>
+                <li><strong>Nom de l'entreprise</strong></li>
+                <li><strong>Photo de profil</strong></li>
+                <li><strong>Informations professionnelles</strong> (compétences, projets, biographie)</li>
+            </ul>
+            
+            <h2>🎯 Utilisation des Données</h2>
+            <p>Vos données sont utilisées pour:</p>
+            <ul>
+                <li>Fournir et améliorer nos services</li>
+                <li>Vous permettre de partager votre profil professionnel via QR code</li>
+                <li>Gérer votre compte et vos préférences</li>
+                <li>Vous fournir un support client</li>
+            </ul>
+            
+            <h2>💾 Stockage des Données</h2>
+            <p>
+                Vos données sont stockées de manière sécurisée sur Firebase (Google Cloud). 
+                Nous utilisons le chiffrement SSL/TLS pour toutes les communications et appliquons 
+                des règles de sécurité strictes.
+            </p>
+            
+            <h2>🤝 Partage des Données</h2>
+            <p>Vos informations de profil sont partagées uniquement:</p>
+            <ul>
+                <li>Lorsque vous générez et partagez votre QR code</li>
+                <li>Lorsque quelqu'un scanne votre QR code</li>
+            </ul>
+            <p><strong>Nous ne vendons jamais vos données à des tiers.</strong></p>
+            
+            <h2>🔐 Sécurité</h2>
+            <p>Nous utilisons des mesures de sécurité avancées pour protéger vos données:</p>
+            <ul>
+                <li>Chiffrement SSL/TLS</li>
+                <li>Authentification sécurisée via Firebase</li>
+                <li>Règles de sécurité Firestore</li>
+                <li>Validation des permissions</li>
+            </ul>
+            
+            <h2>✅ Vos Droits</h2>
+            <p>Vous avez le droit de:</p>
+            <ul>
+                <li>Accéder à vos données</li>
+                <li>Modifier vos données</li>
+                <li>Supprimer vos données</li>
+            </ul>
+            <p>Pour supprimer votre compte, allez dans <strong>Paramètres > Compte > Supprimer mon compte</strong>.</p>
+            
+            <h2>📧 Contact</h2>
+                <p>Pour toute question concernant cette politique, contactez-nous:</p>
+                <ul>
+                    <li><strong>Email:</strong> support@taabin.com</li>
+                    <li><strong>Application:</strong> Paramètres > Envoyer un feedback</li>
+                </ul>
+            </div>
+            
+            <!-- English Version -->
+            <div id="content-en" class="lang-content">
+            <h2>📋 Introduction</h2>
+            <p>
+                TaabIn ("we", "our", "us") is committed to protecting your privacy. 
+                This policy explains how we collect, use, and protect your personal data 
+                when you use our TaabIn mobile application.
+            </p>
+            
+            <h2>📊 Data Collected</h2>
+            <p>When using TaabIn, we collect the following information:</p>
+            <ul>
+                <li><strong>First and last name</strong></li>
+                <li><strong>Email address</strong></li>
+                <li><strong>Phone number</strong></li>
+                <li><strong>Company name</strong></li>
+                <li><strong>Profile photo</strong></li>
+                <li><strong>Professional information</strong> (skills, projects, biography)</li>
+            </ul>
+            
+            <h2>🎯 Data Usage</h2>
+            <p>Your data is used to:</p>
+            <ul>
+                <li>Provide and improve our services</li>
+                <li>Allow you to share your professional profile via QR code</li>
+                <li>Manage your account and preferences</li>
+                <li>Provide customer support</li>
+            </ul>
+            
+            <h2>💾 Data Storage</h2>
+            <p>
+                Your data is securely stored on Firebase (Google Cloud). 
+                We use SSL/TLS encryption for all communications and apply 
+                strict security rules.
+            </p>
+            
+            <h2>🤝 Data Sharing</h2>
+            <p>Your profile information is shared only:</p>
+            <ul>
+                <li>When you generate and share your QR code</li>
+                <li>When someone scans your QR code</li>
+            </ul>
+            <p><strong>We never sell your data to third parties.</strong></p>
+            
+            <h2>🔐 Security</h2>
+            <p>We use advanced security measures to protect your data:</p>
+            <ul>
+                <li>SSL/TLS encryption</li>
+                <li>Secure authentication via Firebase</li>
+                <li>Firestore security rules</li>
+                <li>Permission validation</li>
+            </ul>
+            
+            <h2>✅ Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access your data</li>
+                <li>Modify your data</li>
+                <li>Delete your data</li>
+            </ul>
+            <p>To delete your account, go to <strong>Settings > Account > Delete My Account</strong>.</p>
+            
+            <h2>📧 Contact</h2>
+                <p>For any questions regarding this policy, contact us:</p>
+                <ul>
+                    <li><strong>Email:</strong> support@taabin.com</li>
+                    <li><strong>App:</strong> Settings > Send Feedback</li>
+                </ul>
+            </div>
+            
+            <div class="highlight">
+                <strong>En utilisant TaabIn, vous consentez à notre politique de confidentialité 
+                et acceptez ses conditions.</strong>
+                <br><br>
+                <strong>By using TaabIn, you consent to our privacy policy 
+                and accept its terms.</strong>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p><strong>TaabIn</strong> - Partagez vos contacts professionnels facilement</p>
+        <p>&copy; 2024 TaabIn. Tous droits réservés.</p>
+    </footer>
+    
+    <script>
+        function switchLanguage(lang) {
+            // Hide all content
+            document.querySelectorAll('.lang-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Remove active class from all buttons
+            document.querySelectorAll('.language-toggle button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected content
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
